@@ -1,0 +1,10 @@
+framework module Pushe {
+  umbrella header "Pushe.h"
+
+  export *
+  module * { export * }
+}
+
+module Pushe.Swift {
+    header "Pushe-Swift.h"
+}
