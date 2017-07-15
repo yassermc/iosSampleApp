@@ -11,6 +11,7 @@
 		A2406327FF23F123C5C404F3 /* Pods_iossample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25B682B4C8D7102A9AAC83 /* Pods_iossample.framework */; };
 		CD0C7B211F1A260300F83CD3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0C7B201F1A260300F83CD3 /* NotificationService.swift */; };
 		CD0C7B251F1A260300F83CD3 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD0C7B1E1F1A260300F83CD3 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD0C7B2D1F1A330000F83CD3 /* pushe-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0C7B2C1F1A330000F83CD3 /* pushe-2.png */; };
 		CD84478F1F1A0F5B00E5A2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84478E1F1A0F5B00E5A2BC /* AppDelegate.swift */; };
 		CD8447911F1A0F5B00E5A2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8447901F1A0F5B00E5A2BC /* ViewController.swift */; };
 		CD8447941F1A0F5B00E5A2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8447921F1A0F5B00E5A2BC /* Main.storyboard */; };
@@ -76,6 +77,7 @@
 		CD0C7B1E1F1A260300F83CD3 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0C7B201F1A260300F83CD3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		CD0C7B221F1A260300F83CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0C7B2C1F1A330000F83CD3 /* pushe-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pushe-2.png"; sourceTree = "<group>"; };
 		CD84478B1F1A0F5B00E5A2BC /* iossample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iossample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD84478E1F1A0F5B00E5A2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD8447901F1A0F5B00E5A2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		CD8447821F1A0F5B00E5A2BC = {
 			isa = PBXGroup;
 			children = (
+				CD0C7B2C1F1A330000F83CD3 /* pushe-2.png */,
 				CD8447B51F1A180900E5A2BC /* GoogleService-Info.plist */,
 				CD8447AE1F1A151A00E5A2BC /* Pushe.framework */,
 				CD8447AF1F1A151A00E5A2BC /* SQLite.framework */,
@@ -334,6 +337,7 @@
 				CD8447991F1A0F5B00E5A2BC /* LaunchScreen.storyboard in Resources */,
 				CD8447B61F1A180900E5A2BC /* GoogleService-Info.plist in Resources */,
 				CD8447961F1A0F5B00E5A2BC /* Assets.xcassets in Resources */,
+				CD0C7B2D1F1A330000F83CD3 /* pushe-2.png in Resources */,
 				CD8447941F1A0F5B00E5A2BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
