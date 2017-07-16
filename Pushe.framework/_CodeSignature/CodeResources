@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm.swiftmodule</key>
 		<data>
-		Vv3hk/cjemGMUD3ujPapKdk6vRM=
+		5G6x4SfDXiRDsExKHjDm8vb/Hls=
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ue+K3f04yos2EVpjHuJezZHPw0k=
+		hqp8dmUmkF67d3WACGBCN2hiU0M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,11 +91,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vv3hk/cjemGMUD3ujPapKdk6vRM=
+			5G6x4SfDXiRDsExKHjDm8vb/Hls=
 			</data>
 			<key>hash2</key>
 			<data>
-			JHhRy3Dyc2e0SYUIXEE8FvCQCKGKPR5HWx+By79W7oA=
+			eCXjP+4EU2M69/M5F6T6T5CIvGD3Sc1S1vM3SIBOwNQ=
 			</data>
 		</dict>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftdoc</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ue+K3f04yos2EVpjHuJezZHPw0k=
+			hqp8dmUmkF67d3WACGBCN2hiU0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			D3c3MOB0YhQB2JzWlPF4khPYULjll/DNB8bxgqXJQ2Q=
+			ku2FoiSkGPiKWMQ6gFJSFNOgsnyt1FhbQqv7UAduE0o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
