@@ -141,7 +141,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
-@class UIApplication;
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
 @class UNNotification;
@@ -151,14 +150,13 @@ SWIFT_CLASS("_TtC5Pushe5Pushe")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Pushe * _Nonnull shared;)
 + (Pushe * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (void)configPusheWithApplication:(UIApplication * _Nonnull)application;
-- (void)startPushe:(NSData * _Nonnull)apnToken isDevelop:(BOOL)isDevelop;
+- (void)configPushe;
+- (void)startPusheWithApnToken:(NSData * _Nonnull)apnToken isDevelop:(BOOL)isDevelop;
 - (void)connectToGcm;
 - (void)disconnectFromGcm;
 - (void)willSendDataMessageWithID:(NSString * _Null_unspecified)messageID error:(NSError * _Null_unspecified)error;
 - (void)didSendDataMessageWithID:(NSString * _Null_unspecified)messageId;
-- (void)clickRecieverWithUserInfo:(NSDictionary * _Nonnull)userInfo identifier:(NSString * _Nonnull)identifier;
-- (void)downstreamReciverWithUserInfo:(NSDictionary * _Nonnull)userInfo;
+- (void)downstreamReciverWithMessage:(NSDictionary * _Nonnull)message;
 - (void)onTokenRefresh;
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_AVAILABILITY(ios,introduced=10.0);
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler SWIFT_AVAILABILITY(ios,introduced=10.0);

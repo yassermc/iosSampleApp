@@ -17,16 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Pushe.shared.configPushe(application: application)
+        Pushe.shared.configPushe()
         return true
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        Pushe.shared.startPushe(deviceToken, isDevelop: true)
+        Pushe.shared.startPushe(apnToken: deviceToken, isDevelop: true)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        Pushe.shared.downstreamReciver(userInfo: userInfo)
+        Pushe.shared.downstreamReciver(message: userInfo)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -53,6 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
 
 }
 

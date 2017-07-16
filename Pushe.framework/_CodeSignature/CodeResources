@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Pushe-Swift.h</key>
 		<data>
-		rMtIzW6gldiM1G64Oppk6g0dEpg=
+		Z64dMK62lvr56tWMp1KVcNiSgxs=
 		</data>
 		<key>Headers/Pushe.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4+4ctJzab76CmRcVksjiI9XQURo=
+		81w929p8jGx8G8vYP9AKGrmMWIU=
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm.swiftmodule</key>
 		<data>
-		UYr+GVVTwb2+atKWajNi7CbE8lk=
+		Vv3hk/cjemGMUD3ujPapKdk6vRM=
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		z23hIHsqlq37QHfCVoRKGMsoa9c=
+		ue+K3f04yos2EVpjHuJezZHPw0k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rMtIzW6gldiM1G64Oppk6g0dEpg=
+			Z64dMK62lvr56tWMp1KVcNiSgxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lx4meCFY0VHoQ/98L+0GiWEuyJfq1KXRvXbeETmQK94=
+			dg7m5d+EdZIZ7kjqHosOObxvcrnwtRpETwV7aJcJXTY=
 			</data>
 		</dict>
 		<key>Headers/Pushe.h</key>
@@ -91,11 +91,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UYr+GVVTwb2+atKWajNi7CbE8lk=
+			Vv3hk/cjemGMUD3ujPapKdk6vRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+AfMfcIHc6sGQBPObXu1zMSKAAeSEyvpQ3FAV3wdUQ=
+			JHhRy3Dyc2e0SYUIXEE8FvCQCKGKPR5HWx+By79W7oA=
 			</data>
 		</dict>
 		<key>Modules/Pushe.swiftmodule/arm64.swiftdoc</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z23hIHsqlq37QHfCVoRKGMsoa9c=
+			ue+K3f04yos2EVpjHuJezZHPw0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			5/Y22qvQ82xydBZO1lYU/AzVEMlONNqXnssfSlKs5o8=
+			D3c3MOB0YhQB2JzWlPF4khPYULjll/DNB8bxgqXJQ2Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
